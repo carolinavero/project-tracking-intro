@@ -11,7 +11,7 @@
  
 </head>
 <body>
-
+  <span class="bg-shape"></span>
   <div class="header container">
 
     <div class="logo-block">
@@ -20,7 +20,9 @@
 
     <div class="nav-block">
 
-      <a href="#menu" class="menu-link"></a>
+      <label for="menu-toggle" class="menu-link"> </label>
+      <input type="checkbox" id="menu-toggle" name="menu-toggle">
+
       <nav id="menu" class="list-menu">
         <ul>
           <li><a href="product">Product</a></li>
@@ -44,12 +46,12 @@
     
     
       <div class="flex-block">
-        <span>New</span>
+        <span class="tag">New</span>
         <div class="description">Monograph Dashboard</div>
       </div>
     
       <h1>Powerful insights into your team</h1>
-      <p>Project planning and time tracking for agile teams</p>
+      <p>Project planning and time tracking <span>for agile teams</span></p>
     
       <div class="flex-block">
         <button>Schedule a demo</button>
